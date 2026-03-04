@@ -24,6 +24,7 @@ on:
     push:
         branches: [main]
     workflow_dispatch:
+    pull_request:
 
 env:
     ACR_RESOURCE_GROUP: thgamble
